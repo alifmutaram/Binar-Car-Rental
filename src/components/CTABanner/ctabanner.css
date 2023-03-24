@@ -40,7 +40,7 @@
   text-align: center;
 }
 /* style button */
-button {
+.cta-button {
   padding: 8px 12px;
   gap: 10px;
   margin-top: 1em;
@@ -52,7 +52,7 @@ button {
   background: #5cb85f;
   border-radius: 2px;
 }
-button a {
+.cta-button a {
   width: 116px;
   height: 20px;
   font-size: 14px;
@@ -91,7 +91,7 @@ button a {
     line-height: 20px;
     text-align: center;
   }
-  button {
+  .cta-button {
     margin-top: 0.1em;
   }
 }

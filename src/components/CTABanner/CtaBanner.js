@@ -8,7 +8,7 @@ const CtaBanner = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </span>
-          <button className="d-flex flex-row justify-content-center align-items-center">
+          <button className="d-flex flex-row justify-content-center align-items-center cta-button">
             <a href="#" className="text-decoration-none">
               {" "}
               Mulai Sewa Mobil
