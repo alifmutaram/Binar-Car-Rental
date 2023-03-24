@@ -1,0 +1,138 @@
+.container-footer {
+  display: none;
+  width: 1440px;
+  height: 251px;
+  border: 1px solid red;
+}
+footer {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 86px;
+
+  position: absolute;
+  width: 1141px;
+  height: 128px;
+  left: 136px;
+  top: 2998px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+}
+/* style addres footer */
+.addres {
+  font-size: 14px;
+  line-height: 20px;
+  width: 268px;
+  height: 112px;
+}
+/* style navigation footer */
+.nav-foot {
+  padding: 0px;
+  gap: 16px;
+  width: 89px;
+  height: 128px;
+}
+.nav-foot a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+}
+/* style sosmed */
+.sosmed {
+  width: 268px;
+  height: 68px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.sosmed p {
+  position: absolute;
+  width: 268px;
+  height: 20px;
+  left: 519px;
+  top: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.sosmed .list-sosmed {
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 224px;
+  height: 32px;
+  left: 519px;
+  top: 36px;
+}
+/* style copyright */
+.copyright {
+  width: 268px;
+  height: 70px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+.copyright p {
+  position: absolute;
+  width: 268px;
+  height: 20px;
+  left: 873px;
+  top: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.rectacle-foot {
+  position: absolute;
+  width: 100px;
+  height: 34px;
+  left: 873px;
+  top: 36px;
+  background: #0d28a6;
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    /* position: absolute; */
+    width: 368px;
+    height: 450px;
+    left: 26px;
+    top: 4337px;
+    padding-bottom: 1em;
+    gap: 1px !important;
+  }
+  .nav-foot {
+    /* position: absolute; */
+    display: flex;
+    width: 89px;
+    height: 128px;
+    left: 16px;
+    top: 4073px;
+  }
+  .sosmed {
+    /* position: absolute; */
+    width: 268px;
+    height: 68px;
+    left: 16px;
+    top: 4217px;
+  }
+  .sosmed p,
+  .sosmed .list-sosmed {
+    position: static;
+  }
+  .copyright p,
+  .rectacle-foot {
+    position: static;
+  }
+  .addres {
+    width: 268px;
+    left: 16px;
+    top: 3945px;
+  }
+}
