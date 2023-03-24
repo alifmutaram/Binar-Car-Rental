@@ -1,3 +1,8 @@
+nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 nav ul li .color {
   font-family: Arial;
   font-size: 14px;
@@ -66,9 +71,16 @@ nav ul li .color {
 }
 
 @media screen and (max-width: 576px) {
-  nav {
+  .nav-custom {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+  }
+  .logo {
+    position: absolute;
+    left: -2.8em;
+    top: -1.5em;
   }
   .side-bar {
     display: none;
@@ -82,8 +94,9 @@ nav ul li .color {
     position: absolute;
     width: 180px;
     top: 0px;
-    right: 11.3em;
+    right: 7.5em;
     background: #fff;
+    z-index: 2;
     /* opacity: 0; */
   }
   .menu-togle {
@@ -91,6 +104,7 @@ nav ul li .color {
     position: relative;
     top: 1em;
     right: -2em;
+    z-index: 3;
   }
   .top-side-bar {
     display: flex;
