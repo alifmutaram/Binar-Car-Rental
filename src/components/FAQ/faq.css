@@ -1,0 +1,121 @@
+.faq {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  width: 1168px;
+  height: 344px;
+  left: 136px;
+  top: 2504px;
+}
+.text-faq {
+  /* position: absolute; */
+  width: 368px;
+  height: 92px;
+  left: 136px;
+  top: 2508px;
+}
+.text-faq-1 {
+  /* position: absolute; */
+  height: 36px;
+  left: 9.44%;
+  right: 65%;
+  top: 2508px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.text-faq-2 {
+  /* position: absolute; */
+  width: 368px;
+  height: 40px;
+  left: 136px;
+  top: 2560px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.list-faq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  /* position: relative; */
+  width: 668px;
+  height: 344px;
+  left: 636px;
+  top: 2504px;
+}
+.list-faq p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn-faq {
+  width: 668px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: unset;
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 576px) {
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 428px;
+    height: 476px;
+    left: 26px;
+    top: 3823px;
+  }
+  .list-faq {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 16px;
+
+    /* position: absolute; */
+    width: 428px;
+    height: 376px;
+    left: 16px;
+    top: 3509px;
+  }
+  .btn-faq {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+
+    width: 428px;
+    height: 56px;
+  }
+  .text-faq-1 {
+    /* position: absolute; */
+    height: 36px;
+    left: 4.44%;
+    right: 4.44%;
+    top: 3413px;
+  }
+  .text-faq-2 {
+    /* position: absolute; */
+    height: 36px;
+    left: 4.44%;
+    right: 4.44%;
+    top: 3413px;
+  }
+}
