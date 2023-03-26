@@ -1,17 +1,17 @@
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className="footer-cari-mobil">
         <div className="addres">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
           <p>binarcarrental@gmail.com</p>
           <p>081-233-334-808</p>
         </div>
         <div className="d-flex flex-column align-items-start nav-foot">
-          <a href="">Our services</a>
-          <a href="">Why Us</a>
-          <a href="">Testimonial</a>
-          <a href="">FAQ</a>
+          <a href="#our-service">Our services</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#testimonial">Testimonial</a>
+          <a href="#faq">FAQ</a>
         </div>
         <div className="container-footer"></div>
         <div className="sosmed">

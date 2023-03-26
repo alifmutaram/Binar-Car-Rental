@@ -1,9 +1,3 @@
-.container-footer {
-  display: none;
-  width: 1440px;
-  height: 251px;
-  border: 1px solid red;
-}
 footer {
   /* Auto layout */
   display: flex;
@@ -14,13 +8,17 @@ footer {
 
   position: absolute;
   width: 1141px;
-  height: 128px;
+  height: 228px;
   left: 136px;
   top: 2998px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
 }
+/* .footer-cari-mobil {
+  position: sticky;
+  margin: 200px;
+} */
 /* style addres footer */
 .addres {
   font-size: 14px;
@@ -99,16 +97,14 @@ footer {
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between !important;
-    /* position: absolute; */
     width: 368px;
     height: 450px;
-    left: 26px;
-    top: 4337px;
+    left: 56px;
+    top: 4020px;
     padding-bottom: 1em;
     gap: 1px !important;
   }
   .nav-foot {
-    /* position: absolute; */
     display: flex;
     width: 89px;
     height: 128px;
@@ -116,7 +112,6 @@ footer {
     top: 4073px;
   }
   .sosmed {
-    /* position: absolute; */
     width: 268px;
     height: 68px;
     left: 16px;
