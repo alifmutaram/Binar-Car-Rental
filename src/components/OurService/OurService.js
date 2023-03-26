@@ -1,7 +1,7 @@
 const OurService = () => {
   return (
     <>
-      <div className="our-service">
+      <div className="our-service" id="our-service">
         <div className="img-service">
           <img src="/assets/img-service.png" />
         </div>

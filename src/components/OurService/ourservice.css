@@ -37,9 +37,9 @@
     display: flex !important;
     flex-direction: column;
     position: absolute;
-    width: 80%;
+    width: 75%;
     height: 228px;
-    left: 84px;
+    left: 20vw;
     top: 717px;
   }
   .img-service img {
