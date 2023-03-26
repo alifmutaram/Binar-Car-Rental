@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HeroSection = () => {
   return (
     <>
@@ -15,10 +17,13 @@ const HeroSection = () => {
           </div>
         </div>
         <button>
-          <a href="#" className="text-decoration-none">
+          <Link to="/cari-mobil" className="text-decoration-none">
+            Mulai Sewa Mobil
+          </Link>
+          {/* <a href="#" className="text-decoration-none">
             {" "}
             Mulai Sewa Mobil
-          </a>
+          </a> */}
         </button>
         <div className="position-absolute bottom-0 end-0 float-end img-banner">
           <img
