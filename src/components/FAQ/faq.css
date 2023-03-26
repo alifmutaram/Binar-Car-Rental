@@ -4,21 +4,19 @@
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
-  position: absolute;
   width: 1168px;
   height: 344px;
   left: 136px;
   top: 2504px;
+  margin: 0 auto 6em auto;
 }
 .text-faq {
-  /* position: absolute; */
   width: 368px;
   height: 92px;
   left: 136px;
   top: 2508px;
 }
 .text-faq-1 {
-  /* position: absolute; */
   height: 36px;
   left: 9.44%;
   right: 65%;
@@ -27,7 +25,6 @@
   line-height: 36px;
 }
 .text-faq-2 {
-  /* position: absolute; */
   width: 368px;
   height: 40px;
   left: 136px;

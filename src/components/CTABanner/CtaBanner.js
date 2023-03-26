@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const CtaBanner = () => {
   return (
     <>
@@ -9,10 +10,9 @@ const CtaBanner = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </span>
           <button className="d-flex flex-row justify-content-center align-items-center cta-button">
-            <a href="#" className="text-decoration-none">
-              {" "}
+            <Link to="/search-car" className="text-decoration-none">
               Mulai Sewa Mobil
-            </a>
+            </Link>
           </button>
         </div>
       </div>

@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <>
-      <footer className="footer-cari-mobil">
+    <div className="d-flex justify-content-center align-items-center container-footer">
+      <footer>
         <div className="addres">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
           <p>binarcarrental@gmail.com</p>
@@ -13,7 +13,6 @@ const Footer = () => {
           <a href="#testimonial">Testimonial</a>
           <a href="#faq">FAQ</a>
         </div>
-        <div className="container-footer"></div>
         <div className="sosmed">
           <p>Connect with us</p>
           <div className="d-flex flex-row align-items-start list-sosmed">
@@ -39,7 +38,7 @@ const Footer = () => {
           <div className="rectacle-foot"></div>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 

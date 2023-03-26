@@ -17,7 +17,7 @@ const HeroSection = () => {
           </div>
         </div>
         <button>
-          <Link to="/cari-mobil" className="text-decoration-none">
+          <Link to="/search-car" className="text-decoration-none">
             Mulai Sewa Mobil
           </Link>
           {/* <a href="#" className="text-decoration-none">

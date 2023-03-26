@@ -1,24 +1,21 @@
+.container-footer {
+  width: 100%;
+  height: 251px;
+}
 footer {
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 86px;
-
-  position: absolute;
   width: 1141px;
   height: 228px;
   left: 136px;
-  top: 2998px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
+  margin: auto;
 }
-/* .footer-cari-mobil {
-  position: sticky;
-  margin: 200px;
-} */
 /* style addres footer */
 .addres {
   font-size: 14px;
@@ -49,7 +46,6 @@ footer {
   flex-grow: 0;
 }
 .sosmed p {
-  position: absolute;
   width: 268px;
   height: 20px;
   left: 519px;
@@ -60,7 +56,6 @@ footer {
 .sosmed .list-sosmed {
   padding: 0px;
   gap: 16px;
-  position: absolute;
   width: 224px;
   height: 32px;
   left: 519px;
@@ -75,7 +70,7 @@ footer {
   flex-grow: 0;
 }
 .copyright p {
-  position: absolute;
+  /* position: absolute; */
   width: 268px;
   height: 20px;
   left: 873px;
@@ -84,7 +79,7 @@ footer {
   line-height: 20px;
 }
 .rectacle-foot {
-  position: absolute;
+  /* position: absolute; */
   width: 100px;
   height: 34px;
   left: 873px;

@@ -1,5 +1,5 @@
 .ct-banner {
-  position: absolute;
+  /* position: absolute; */
   width: 1168px;
   height: 326px;
   left: 136px;
@@ -8,6 +8,7 @@
   font-style: normal;
   font-weight: 700;
   color: #ffffff;
+  margin: 0 auto 6em auto;
 }
 .ct-bg {
   /* position: absolute; */

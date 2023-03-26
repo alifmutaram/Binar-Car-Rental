@@ -4,15 +4,16 @@ import HeroSection from "../../components/HeroSection/HeroSection";
 import "../../components/HeroSection/herosection.css";
 import Footer from "../../components/Footer/Footer";
 import "../../components/Footer/footer.css";
+import "../SearchCar/style.css";
 
-const CariMobil = () => {
+const SearchCar = () => {
   return (
-    <>
+    <div className="search-car">
       <HeroSection />
       <Navbar />
       <Footer />
-    </>
+    </div>
   );
 };
 
-export default CariMobil;
+export default SearchCar;

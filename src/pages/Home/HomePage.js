@@ -23,7 +23,6 @@ const HomePage = () => {
       <HeroSection />
       <Navbar />
       <OurService />
-      <CtaBanner />
       <WhyUs>
         <Card
           cardImg="/assets/icon_complete.png"
@@ -63,7 +62,7 @@ const HomePage = () => {
           nameTesti="John Dee 32, Bromo"
         />
       </Testimonial>
-
+      <CtaBanner />
       <FAQ />
       <Footer />
     </div>
