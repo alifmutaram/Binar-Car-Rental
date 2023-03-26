@@ -66,14 +66,14 @@
     display: flex !important;
     width: 328px;
     height: 420px;
-    left: 5em;
+    left: 4em;
   }
   .ct-bg {
-    /* position: absolute; */
+    position: relative;
     width: 328px;
     height: 420px;
-    left: 16px;
-    top: 2953px;
+    left: 5vw;
+    top: 960px;
   }
   .ct-text-1 {
     margin-bottom: 0.5em;
