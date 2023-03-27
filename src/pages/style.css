@@ -1,0 +1,9 @@
+.home-page {
+  overflow: hidden;
+}
+@media screen and (max-width: 576px) {
+  .home-page {
+    height: 290em;
+    background: none;
+  }
+}

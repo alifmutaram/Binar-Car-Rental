@@ -4,9 +4,7 @@
   justify-content: space-between;
   width: 1027px;
   height: 428px;
-  left: 206px;
-  top: 604px;
-  margin: 6em auto;
+  margin: 8em auto 6em;
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
@@ -34,19 +32,18 @@
 }
 @media screen and (max-width: 576px) {
   .our-service {
-    display: flex !important;
+    position: relative;
+    display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 75%;
+    width: 60%;
     height: 228px;
-    left: 20vw;
-    top: 717px;
+    top: -50px;
+    margin-top: em;
+    left: 0.5em;
   }
   .img-service img {
     width: 252px;
     height: 228px;
-    left: 54px;
-    top: 717px;
     margin-bottom: 1em;
   }
   .desc {

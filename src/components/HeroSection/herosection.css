@@ -1,6 +1,5 @@
 .hero-section {
-  /* position: absolute; */
-  /* width: 1440px; */
+  position: relative;
   height: 500px;
   left: 0px;
   top: 0px;
@@ -8,7 +7,6 @@
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
-
   width: 100%;
 }
 /* style text */
@@ -63,7 +61,7 @@ button a {
 @media screen and (max-width: 576px) {
   .hero-section {
     width: 100%;
-    height: 100%;
+    height: 40em;
   }
   .text-wrap {
     position: absolute;
@@ -95,12 +93,6 @@ button a {
     top: 358px;
   }
   .img-banner {
-    /* position: relative;
-    width: 344.22px;
-    height: 199px;
-    left: 16px;
-    top: 458px; */
-
     top: 485px;
     position: relative !important;
     height: 170px;

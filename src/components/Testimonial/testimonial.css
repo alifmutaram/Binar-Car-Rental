@@ -11,30 +11,18 @@
 h3,
 h5 {
   text-align: center;
-  font-family: "Arial";
-  font-style: normal;
   font-weight: 700;
 }
 h3 {
-  /* position: absolute; */
   height: 36px;
-  left: 32.36%;
-  right: 35.14%;
-  top: 1540px;
   font-size: 24px;
   line-height: 36px;
 }
 h5 {
-  /* position: absolute;
-  width: 468px;
-  height: 20px;
-  left: 466px; */
-  top: 1592px;
   font-size: 14px;
   line-height: 20px;
 }
 .list-testi {
-  /* position: absolute; */
   width: 1921px;
   height: 270px;
   left: -241px;
@@ -42,11 +30,8 @@ h5 {
 }
 /* STYLE BUTTON CAROUSEL */
 .button-carousel {
-  /* position: absolute; */
   width: 88px;
   height: 32px;
-  left: 676px;
-  top: 1946px;
   margin: auto;
 }
 .button-carousel button {
@@ -56,8 +41,6 @@ h5 {
   width: 32px;
   height: 32px;
   font-weight: 700;
-  /* left: 676px; */
-  /* top: 1946px; */
 }
 .button-carousel .left {
   border: 1px solid #c4c4c4;
@@ -65,34 +48,20 @@ h5 {
 .button-carousel .right {
   border: 2px solid #ffffff;
 }
-
 /* STYLE CARD TESTIMONIAL */
 .card-testi {
-  /* position: absolute; */
   width: 619px;
   height: 270px;
-  left: 410px;
-  top: 1652px;
   background: #f1f3ff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
 }
 .card-testi img {
-  /* position: absolute; */
   width: 80px;
   height: 80px;
-  left: 456px;
-  top: 1747px;
 }
 .box-text {
-  padding: 0px;
   gap: 8px;
-  box-sizing: border-box;
-  /* position: absolute; */
-  width: 415px;
-  height: 152px;
-  left: 582px;
-  top: 1721px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
@@ -116,14 +85,12 @@ h5 {
 }
 @media screen and (max-width: 576px) {
   .testimonial {
-    display: flex;
-    flex-direction: column;
     width: 328px;
-    left: 104px;
-    top: 2473px;
+    left: 1em;
+    position: relative;
+    top: 323px;
     height: 562px;
     overflow: hidden;
-    /* overflow: hidden; */
   }
   .list-testi {
     width: 328px;
@@ -138,11 +105,8 @@ h5 {
     padding: 40px 32px;
     gap: 24px;
     box-sizing: border-box;
-    /* position: absolute; */
     width: 328px;
     height: 392px;
-    left: 16px;
-    top: 2473px;
     background: #f1f3ff;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     border-radius: 8px;

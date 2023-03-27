@@ -16,10 +16,11 @@ import Footer from "../../components/Footer/Footer";
 import "../../components/Footer/footer.css";
 import Card from "../../components/CardWhy/CardWhy";
 import CardTesti from "../../components/CardTesti/Cardtesti";
+import "../style.css";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="home-page">
       <HeroSection />
       <Navbar />
       <OurService />

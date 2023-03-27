@@ -1,9 +1,7 @@
 .ct-banner {
-  /* position: absolute; */
   width: 1168px;
   height: 326px;
-  left: 136px;
-  top: 2078px;
+
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
@@ -11,31 +9,22 @@
   margin: 0 auto 6em auto;
 }
 .ct-bg {
-  /* position: absolute; */
   text-align: center;
   width: 1168px;
   height: 326px;
-  left: 136px;
-  top: 2078px;
   background: #0d28a6;
   border-radius: 13px;
 }
 .ct-text-1 {
-  /* position: relative; */
   width: 613px;
   height: 54px;
-  left: 406px;
-  top: 2142px;
   font-size: 36px;
   line-height: 150%;
   text-align: center;
 }
 .ct-text-2 {
-  /* position: absolute; */
   width: 468px;
   height: 40px;
-  left: 478px;
-  top: 2212px;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
@@ -48,8 +37,6 @@
   position: static;
   width: 140px;
   height: 36px;
-  left: 650px;
-  top: 2304px;
   background: #5cb85f;
   border-radius: 2px;
 }
@@ -73,8 +60,8 @@
     position: relative;
     width: 328px;
     height: 420px;
-    left: 5vw;
-    top: 960px;
+    left: 1em;
+    top: 260px;
   }
   .ct-text-1 {
     margin-bottom: 0.5em;

@@ -18,8 +18,6 @@ nav ul li .color {
 .logo {
   width: 100px;
   height: 34px;
-  left: 136px;
-  top: 25px;
   background: #0d28a6;
 }
 .top-side-bar {
@@ -74,7 +72,6 @@ nav ul li .color {
   .nav-custom {
     display: flex;
     flex-direction: row-reverse;
-    /* border: 1px solid black; */
     box-sizing: border-box;
   }
   .logo {
