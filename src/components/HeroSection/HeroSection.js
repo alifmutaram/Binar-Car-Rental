@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SideBar from "../SideBar/SideBar";
 
 const HeroSection = () => {
   return (
@@ -16,15 +17,6 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-        <button>
-          <Link to="/search-car" className="text-decoration-none">
-            Mulai Sewa Mobil
-          </Link>
-          {/* <a href="#" className="text-decoration-none">
-            {" "}
-            Mulai Sewa Mobil
-          </a> */}
-        </button>
         <div className="position-absolute bottom-0 end-0 float-end img-banner">
           <img
             src="/assets/car-banner.png"
