@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import "../../components/Navbar/navbar.css";
 import HeroSection from "../../components/HeroSection/HeroSection";
@@ -16,12 +17,20 @@ import Footer from "../../components/Footer/Footer";
 import "../../components/Footer/footer.css";
 import Card from "../../components/CardWhy/CardWhy";
 import CardTesti from "../../components/CardTesti/Cardtesti";
+import SideBar from "../../components/SideBar/SideBar";
 import "../style.css";
 
 const HomePage = () => {
   return (
     <div className="home-page">
       <HeroSection />
+      <div>
+        <button>
+          <Link to="/search-car" className="text-decoration-none">
+            Mulai Sewa Mobil
+          </Link>
+        </button>
+      </div>
       <Navbar />
       <OurService />
       <WhyUs>
