@@ -1,6 +1,4 @@
 .faq {
-  display: flex;
-  justify-content: space-between;
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
@@ -31,9 +29,6 @@
   line-height: 20px;
 }
 .list-faq {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
   gap: 16px;
   width: 668px;

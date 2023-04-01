@@ -1,14 +1,14 @@
 const FAQ = () => {
   return (
     <>
-      <div className="faq" id="faq">
+      <div className="d-flex justify-content-between faq" id="faq">
         <div className="text-faq">
           <p className="text-faq-1">Frequently Asked Question</p>
           <p className="text-faq-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
         </div>
-        <div className="list-faq">
+        <div className="d-flex flex-column align-items-start list-faq">
           <button
             class="btn dropdown-toggle btn-faq"
             type="button"
