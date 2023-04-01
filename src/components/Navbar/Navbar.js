@@ -1,37 +1,73 @@
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import { useHistory } from "react-router-dom";
+import SideBar from "../SideBar/SideBar";
 const Navbar = () => {
+  const [displaySideBar, setSideBar] = useState(false); // => hooks state
+  const { push } = useHistory();
+
+  const clickToHome = () => {
+    push("/home");
+  };
+
+  const handleButtonOnClick = () => {
+    const callbackState = (previousState) => {
+      console.log({ previousState });
+      return !previousState;
+    };
+
+    setSideBar(callbackState);
+  };
+
   return (
     <>
       <nav className="d-flex justify-content-between col-9 m-auto mt-5 position-absolute top-0 start-50 translate-middle nav-custom">
-        <a className="logo" href="#"></a>
+        <a className="logo" href="#" onClick={clickToHome}></a>
         <div className="menu-togle">
-          <input type="checkbox" />
+          <input type="checkbox" onClick={handleButtonOnClick} />
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <ul className="nav side-bar">
-          <div className="top-side-bar">
-            <span>bcr</span>
-          </div>
+        {displaySideBar && <SideBar />}
+        <ul className="nav list-nav">
           <li className="nav-item">
-            <a className="nav-link color" href="#our-service">
+            <Link
+              to="our-service"
+              className="nav-link text-decoration-none color"
+            >
               Our Services
-            </a>
+            </Link>
+            {/* <a className="nav-link color" href="#our-service">
+              Our Services
+            </a> */}
           </li>
           <li className="nav-item">
-            <a className="nav-link color" href="#why-us">
+            <Link to="/#why-us" className="nav-link text-decoration-none color">
               Why Us
-            </a>
+            </Link>
+            {/* <a className="nav-link color" href="#why-us">
+              Why Us
+            </a> */}
           </li>
           <li className="nav-item">
-            <a className="nav-link color" href="#testimonial">
+            <Link
+              to="/#testimonial"
+              className="nav-link text-decoration-none color"
+            >
               Testimonial
-            </a>
+            </Link>
+            {/* <a className="nav-link color" href="#testimonial">
+              Testimonial
+            </a> */}
           </li>
           <li className="nav-item">
-            <a className="nav-link color" href="#faq">
+            <Link to="/#faq" className="nav-link text-decoration-none color">
               FAQ
-            </a>
+            </Link>
+            {/* <a className="nav-link color" href="#faq">
+              FAQ
+            </a> */}
           </li>
         </ul>
       </nav>

@@ -12,6 +12,9 @@ nav ul li .color {
   text-align: left;
   color: #000000;
 }
+.side-bar {
+  display: none;
+}
 .color:hover {
   color: #000000;
 }
@@ -43,8 +46,8 @@ nav ul li .color {
   position: absolute;
   width: 40px;
   height: 30px;
-  left: -7px;
-  top: -3px;
+  left: -8px;
+  top: -4px;
   opacity: 0;
   cursor: pointer;
 }
@@ -79,28 +82,29 @@ nav ul li .color {
     left: -2.8em;
     top: -1.5em;
   }
-  .side-bar {
+  .list-nav {
     display: none;
+  }
+  .side-bar {
+    display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: space-evenly;
     align-items: center;
-    z-index: -1;
     transform: translateX(100%);
     transition: 1s;
     position: absolute;
     width: 180px;
-    top: 0px;
-    right: 7.5em;
+    height: 41em;
+    top: -3em;
+    right: 7em;
     background: #fff;
-    z-index: 2;
-    /* opacity: 0; */
   }
   .menu-togle {
     display: flex;
-    position: relative;
-    top: 1em;
-    right: -2em;
+    position: absolute;
+    top: -1em;
+    right: -2.7em;
     z-index: 3;
   }
   .top-side-bar {
