@@ -4,13 +4,18 @@ import HeroSection from "../../components/HeroSection/HeroSection";
 import "../../components/HeroSection/herosection.css";
 import Footer from "../../components/Footer/Footer";
 import "../../components/Footer/footer.css";
+import SearchCarBox from "../../components/SearchCarBox/SearchCarBox";
+import "../style.css";
 
 const SearchCar = () => {
   return (
     <div className="search-car">
       <HeroSection />
+      <SearchCarBox />
       <Navbar />
-      <Footer />
+      <div className="search-footer d-flex flex-column justify-content-end">
+        <Footer />
+      </div>
     </div>
   );
 };

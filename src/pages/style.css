@@ -21,27 +21,15 @@
   width: 100%;
   height: 25em;
 }
-/* .box-cari {
-  position: relative;
-  width: 100%;
-  height: 250px;
-  border: 1px solid red;
-} */
 .frame-result {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-
-  /* position: absolute; */
-  position: relative;
-  width: 1047px;
+  width: 1147px;
   height: 478px;
   margin: auto;
-  /* left: 196px; */
-  /* top: 377px; */
-  border: 1px solid red;
 }
 .card-result {
   padding: 24px;
@@ -53,21 +41,15 @@
   border-radius: 8px;
 }
 .card-body-result {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
   gap: 7px;
-
   width: 285px;
   height: 358px;
-  border: 1px solid black;
+}
+.card-body-result p {
+  margin-left: 0.5em;
 }
 .btn-pilih-mobil {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 8px 12px;
   gap: 12px;
   position: static;
@@ -85,7 +67,6 @@
   height: 1366px;
 }
 .detail-head {
-  /* position: absolute; */
   width: 100%;
   height: 266px;
   left: 0px;
@@ -108,7 +89,6 @@
   background: #ffffff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
-  border: 1px solid black;
 }
 .detail-paket-side {
   position: absolute;
@@ -119,7 +99,19 @@
   background: #ffffff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
-  border: 1px solid black;
+}
+.list-detail-car .list {
+  ont-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 175%;
+  color: #8a8a8a;
+}
+h4,
+h5 {
+  text-align: left;
+  margin: 0.5em;
 }
 @media screen and (max-width: 576px) {
   .home-page {
