@@ -1,10 +1,9 @@
 import TextField from "../TextField/TextField";
 import Select from "../Select/Select";
 import "../SearchCarBox/searchcarbox.css";
-import CardResult from "../CardResult/CardResult";
 import { catSelect, hargaSelect, statusSelect } from "../../constants";
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import "../../pages/style.css";
@@ -17,8 +16,8 @@ const SearchCarBox = () => {
   const [valueStatus, setStatus] = useState("");
   const [displayHasilMobil, setDisplayHasilMobil] = useState([]);
   const { push } = useHistory();
-  const handlePilihMobil = () => {
-    push("/detail-car");
+  const handlePilihMobil = (params) => {
+    push(`/detail-car/${params}`);
   };
   const handleOnClick = () => {
     fetch(
@@ -34,8 +33,8 @@ const SearchCarBox = () => {
         })
     )
       .then((res) => res.json())
-      .then((resp) => {
-        const carList = resp.cars;
+      .then((respone) => {
+        const carList = respone.cars;
         console.log(carList);
         setDisplayHasilMobil(carList);
       });
@@ -78,28 +77,30 @@ const SearchCarBox = () => {
         </div>
       </div>
 
-      <div>
-        {displayHasilMobil.map(({ image, name, price, id }) => {
+      <div className=" d-flex flex-row justify-content-center">
+        {displayHasilMobil.map(({ id, image, name, price }) => {
           return (
-            <div className="d-flex flex-row align-items-start frame-result">
-              <div class="card d-flex flex-column align-items-start card-result">
-                <div class="d-flex flex-column align-items-start card-body-result">
-                  <img class="card-img-top" src={image} alt="" />
-                  <h4 class="card-title">{name}</h4>
-                  <p class="card-text">{price}</p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
-                  </p>
+            <div>
+              <div className="d-flex flex-row align-items-start justify-content-between frame-result">
+                <div class="card d-flex flex-column align-items-start card-result">
+                  <div class="d-flex flex-column align-items-start card-body-result">
+                    <img class="card-img-top" src={image} alt="" />
+                    <h4 class="card-title">{name}</h4>
+                    <p class="card-text">{price}</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.{" "}
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="d-flex flex-row align-items-center justify-content-center btn-pilih-mobil"
+                    onClick={() => handlePilihMobil(id)}
+                  >
+                    Pilih Mobil
+                  </button>
                 </div>
-                <button
-                  type="button"
-                  class="d-flex flex-row align-items-center justify-content-center btn-pilih-mobil"
-                  onClick={handlePilihMobil}
-                >
-                  Pilih Mobil
-                </button>
               </div>
             </div>
           );
