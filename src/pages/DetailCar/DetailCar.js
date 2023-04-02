@@ -99,7 +99,7 @@ const DetailCar = () => {
           className="d-flex flex-row justify-content-between align-items-center"
           style={{ width: "22em" }}
         >
-          <h4>Total</h4>
+          <h4>Total :</h4>
           <h4>Rp.{detailCar.price}</h4>
         </div>
       </div>
