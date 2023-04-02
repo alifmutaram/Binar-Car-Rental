@@ -9,56 +9,25 @@ const FAQ = () => {
           </p>
         </div>
         <div className="d-flex flex-column align-items-start list-faq">
-          <button
-            class="btn dropdown-toggle btn-faq"
-            type="button"
-            id="dropdownMenu2"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <p>Apa saja syarat yang dibutuhkan?</p>
-          </button>
-          <button
-            class="btn dropdown-toggle btn-faq"
-            type="button"
-            id="dropdownMenu2"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <p>Berapa hari minimal sewa mobil lepas kunci?</p>
-          </button>
-          <button
-            class="btn dropdown-toggle btn-faq"
-            type="button"
-            id="dropdownMenu2"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <p>Berapa hari sebelumnya sabaiknya booking sewa mobil?</p>
-          </button>
-          <button
-            class="btn dropdown-toggle btn-faq"
-            type="button"
-            id="dropdownMenu2"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <p>Apakah Ada biaya antar-jemput?</p>
-          </button>
-          <button
-            class="btn dropdown-toggle btn-faq"
-            type="button"
-            id="dropdownMenu2"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <p>Bagaimana jika terjadi kecelakaan</p>
-          </button>
+          <select className="btn-faq">
+            <option>Apa saja syarat yang dibutuhkan?</option>
+          </select>
+          <select className="btn-faq">
+            <option>Berapa hari minimal sewa mobil lepas kunci?</option>
+          </select>
+          <select className="btn-faq">
+            <option>
+              Berapa hari sebelumnya sabaiknya booking sewa mobil?
+            </option>
+          </select>
+          <select className="btn-faq">
+            <option>Apakah Ada biaya antar-jemput?</option>
+          </select>
+          <select className="btn-faq">
+            <option>
+              <p>Bagaimana jika terjadi kecelakaan</p>
+            </option>
+          </select>
         </div>
       </div>
     </>

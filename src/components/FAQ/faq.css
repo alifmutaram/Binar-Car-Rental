@@ -34,13 +34,7 @@
   width: 668px;
   height: 344px;
 }
-.list-faq p {
-  font-family: "Arial";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-}
+
 .btn-faq {
   width: 668px;
   height: 56px;
@@ -51,6 +45,12 @@
   background: #ffffff;
   border: 1px solid #d4d4d4;
   border-radius: 4px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 576px) {
