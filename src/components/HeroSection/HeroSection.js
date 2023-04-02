@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-import SideBar from "../SideBar/SideBar";
-
 const HeroSection = () => {
   return (
     <>
