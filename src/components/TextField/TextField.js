@@ -1,4 +1,4 @@
-const TextField = ({ labelTextField, value, onChange }) => {
+const TextField = ({ labelTextField, value, onChange, placeholder }) => {
   const handleOnChange = (e) => {
     const val = e.target.value;
     onChange(val);
@@ -14,7 +14,7 @@ const TextField = ({ labelTextField, value, onChange }) => {
           type="text"
           name=""
           id=""
-          placeholder="Ketik Nama/Tipe Mobil"
+          placeholder={placeholder}
           aria-describedby="helpId"
         />
       </div>

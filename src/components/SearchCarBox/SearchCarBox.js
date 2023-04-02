@@ -48,12 +48,14 @@ const SearchCarBox = () => {
             labelTextField={"Nama Mobil"}
             value={valueNamaMobil}
             onChange={setNamaMobil}
+            placeholder="Ketik Nama/Tipe Mobil"
           />
           <Select
             labelSelect={"Kategori"}
             value={valueKategori}
             onChange={setKategori}
             items={catSelect}
+            placeholder="Masukan Kapasitas Mobil"
           />
           <Select
             labelSelect={"Harga"}
