@@ -26,10 +26,8 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 24px;
-  width: 1147px;
   height: 478px;
-  margin: auto;
+  margin: 1em;
 }
 .card-result {
   padding: 24px;
@@ -101,17 +99,18 @@
   border-radius: 8px;
 }
 .list-detail-car .list {
-  ont-family: "Arial";
+  font-family: "Arial";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 175%;
   color: #8a8a8a;
 }
-h4,
-h5 {
-  text-align: left;
-  margin: 0.5em;
+.img-detail-car {
+  position: relative;
+  left: 3em;
+  width: 270px;
+  height: 160px;
 }
 @media screen and (max-width: 576px) {
   .home-page {
