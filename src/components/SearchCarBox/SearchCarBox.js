@@ -79,7 +79,7 @@ const SearchCarBox = () => {
         </div>
       </div>
 
-      <div className=" d-flex flex-row justify-content-center">
+      <div className=" d-flex flex-row justify-content-center flex-wrap">
         {displayHasilMobil.map(({ id, image, name, price }) => {
           return (
             <div>
