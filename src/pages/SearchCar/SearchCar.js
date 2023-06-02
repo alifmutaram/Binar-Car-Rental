@@ -1,11 +1,12 @@
-import Navbar from "../../components/Navbar/Navbar";
-import "../../components/Navbar/navbar.css";
-import HeroSection from "../../components/HeroSection/HeroSection";
-import "../../components/HeroSection/herosection.css";
-import Footer from "../../components/Footer/Footer";
-import "../../components/Footer/footer.css";
-import SearchCarBox from "../../components/SearchCarBox/SearchCarBox";
-import "../style.css";
+import Navbar from '../../components/Navbar/Navbar'
+import '../../components/Navbar/navbar.css'
+import HeroSection from '../../components/HeroSection/HeroSection'
+import '../../components/HeroSection/herosection.css'
+import Footer from '../../components/Footer/Footer'
+import '../../components/Footer/footer.css'
+import SearchCarBox from '../../components/SearchCarBox/SearchCarBox'
+import '../style.css'
+import React from 'react'
 
 const SearchCar = () => {
   return (
@@ -17,7 +18,7 @@ const SearchCar = () => {
         <Footer />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SearchCar;
+export default SearchCar

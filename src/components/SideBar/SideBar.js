@@ -1,4 +1,6 @@
-import "../Navbar/navbar.css";
+import '../Navbar/navbar.css'
+import React from 'react'
+
 const SideBar = () => {
   return (
     <>
@@ -28,7 +30,7 @@ const SideBar = () => {
         </li>
       </ul>
     </>
-  );
-};
+  )
+}
 
-export default SideBar;
+export default SideBar

@@ -1,7 +1,8 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import HomePage from "./pages/Home/HomePage";
-import SearchCar from "./pages/SearchCar/SearchCar";
-import DetailCar from "./pages/DetailCar/DetailCar";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import HomePage from './pages/Home/HomePage'
+import SearchCar from './pages/SearchCar/SearchCar'
+import DetailCar from './pages/DetailCar/DetailCar'
+import React from 'react'
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
         <Route path="/" component={HomePage} />
       </Switch>
     </Router>
-  );
-};
+  )
+}
 
-export default App;
+export default App

@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Card = ({ cardImg, cardTitle, cardText }) => {
   return (
     <div className="card">
@@ -5,7 +7,7 @@ const Card = ({ cardImg, cardTitle, cardText }) => {
       <h6 className="card-title">{cardTitle}</h6>
       <p className="card-text">{cardText}</p>
     </div>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

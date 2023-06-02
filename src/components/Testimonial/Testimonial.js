@@ -1,3 +1,6 @@
+import React from 'react'
+
+// eslint-disable-next-line react/prop-types
 const Testimonial = ({ children }) => {
   return (
     <>
@@ -23,7 +26,7 @@ const Testimonial = ({ children }) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Testimonial;
+export default Testimonial

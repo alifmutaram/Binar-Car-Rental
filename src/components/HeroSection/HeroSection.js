@@ -1,3 +1,5 @@
+import React from 'react'
+
 const HeroSection = () => {
   return (
     <>
@@ -23,6 +25,6 @@ const HeroSection = () => {
         </div>
       </div>
     </>
-  );
-};
-export default HeroSection;
+  )
+}
+export default HeroSection

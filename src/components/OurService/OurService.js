@@ -1,3 +1,5 @@
+import React from 'react'
+
 const OurService = () => {
   return (
     <>
@@ -14,7 +16,7 @@ const OurService = () => {
               kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
               wedding, meeting, dll.
             </p>
-            <div class="frame-service-inside d-flex flex-column align-items-start p-0 gap-3">
+            <div className="frame-service-inside d-flex flex-column align-items-start p-0 gap-3">
               <div className="group-frame">
                 <img src="assets/cek.png" alt="cek" />
                 <span>Sewa Mobil Dengan Supir di Bali 12 Jam</span>
@@ -40,7 +42,7 @@ const OurService = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default OurService;
+export default OurService

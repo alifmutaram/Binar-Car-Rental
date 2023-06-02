@@ -1,3 +1,5 @@
+import React from 'react'
+
 const FAQ = () => {
   return (
     <>
@@ -31,6 +33,6 @@ const FAQ = () => {
         </div>
       </div>
     </>
-  );
-};
-export default FAQ;
+  )
+}
+export default FAQ

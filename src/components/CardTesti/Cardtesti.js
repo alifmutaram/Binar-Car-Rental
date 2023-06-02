@@ -1,3 +1,5 @@
+import React from 'react'
+
 const CardTesti = ({ testiImg, testiText, nameTesti }) => {
   return (
     <>
@@ -10,7 +12,7 @@ const CardTesti = ({ testiImg, testiText, nameTesti }) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default CardTesti;
+export default CardTesti

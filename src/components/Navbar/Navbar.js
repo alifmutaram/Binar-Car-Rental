@@ -1,23 +1,24 @@
-import { Link } from "react-scroll";
-import { useState } from "react";
-import { useHistory } from "react-router-dom";
-import SideBar from "../SideBar/SideBar";
+import { Link } from 'react-scroll'
+import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
+import SideBar from '../SideBar/SideBar'
+
 const Navbar = () => {
-  const [displaySideBar, setSideBar] = useState(false);
-  const { push } = useHistory();
+  const [displaySideBar, setSideBar] = useState(false)
+  const { push } = useHistory()
 
   const clickToHome = () => {
-    push("/home");
-  };
+    push('/home')
+  }
 
   const handleButtonOnClick = () => {
     const callbackState = (previousState) => {
-      console.log({ previousState });
-      return !previousState;
-    };
+      console.log({ previousState })
+      return !previousState
+    }
 
-    setSideBar(callbackState);
-  };
+    setSideBar(callbackState)
+  }
 
   return (
     <>
@@ -68,7 +69,7 @@ const Navbar = () => {
         </ul>
       </nav>
     </>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

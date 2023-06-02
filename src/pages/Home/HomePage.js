@@ -1,22 +1,23 @@
-import { Link } from "react-router-dom";
-import Navbar from "../../components/Navbar/Navbar";
-import "../../components/Navbar/navbar.css";
-import HeroSection from "../../components/HeroSection/HeroSection";
-import "../../components/HeroSection/herosection.css";
-import OurService from "../../components/OurService/OurService";
-import "../../components/OurService/ourservice.css";
-import WhyUs from "../../components/WhyUs/WhyUs";
-import "../../components/WhyUs/whyus.css";
-import Testimonial from "../../components/Testimonial/Testimonial";
-import "../../components/Testimonial/testimonial.css";
-import CtaBanner from "../../components/CTABanner/CtaBanner";
-import "../../components/CTABanner/ctabanner.css";
-import FAQ from "../../components/FAQ/Faq";
-import "../../components/FAQ/faq.css";
-import Footer from "../../components/Footer/Footer";
-import "../../components/Footer/footer.css";
-import Card from "../../components/CardWhy/CardWhy";
-import CardTesti from "../../components/CardTesti/Cardtesti";
+import { Link } from 'react-router-dom'
+import Navbar from '../../components/Navbar/Navbar'
+import '../../components/Navbar/navbar.css'
+import HeroSection from '../../components/HeroSection/HeroSection'
+import '../../components/HeroSection/herosection.css'
+import OurService from '../../components/OurService/OurService'
+import '../../components/OurService/ourservice.css'
+import WhyUs from '../../components/WhyUs/WhyUs'
+import '../../components/WhyUs/whyus.css'
+import Testimonial from '../../components/Testimonial/Testimonial'
+import '../../components/Testimonial/testimonial.css'
+import CtaBanner from '../../components/CTABanner/CtaBanner'
+import '../../components/CTABanner/ctabanner.css'
+import FAQ from '../../components/FAQ/Faq'
+import '../../components/FAQ/faq.css'
+import Footer from '../../components/Footer/Footer'
+import '../../components/Footer/footer.css'
+import Card from '../../components/CardWhy/CardWhy'
+import CardTesti from '../../components/CardTesti/Cardtesti'
+import React from 'react'
 
 const HomePage = () => {
   return (
@@ -74,7 +75,7 @@ const HomePage = () => {
       <FAQ />
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage

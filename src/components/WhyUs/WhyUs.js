@@ -1,3 +1,6 @@
+import React from 'react'
+
+// eslint-disable-next-line react/prop-types
 const WhyUs = ({ children }) => {
   return (
     <>
@@ -14,7 +17,7 @@ const WhyUs = ({ children }) => {
         <div className="list-items">{children}</div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default WhyUs;
+export default WhyUs

@@ -1,8 +1,11 @@
+/* eslint-disable react/prop-types */
+import React from 'react'
+
 const TextField = ({ labelTextField, value, onChange, placeholder }) => {
   const handleOnChange = (e) => {
-    const val = e.target.value;
-    onChange(val);
-  };
+    const val = e.target.value
+    onChange(val)
+  }
   return (
     <>
       <div className="form-group d-flex flex-column align-items-start">
@@ -19,6 +22,6 @@ const TextField = ({ labelTextField, value, onChange, placeholder }) => {
         />
       </div>
     </>
-  );
-};
-export default TextField;
+  )
+}
+export default TextField
